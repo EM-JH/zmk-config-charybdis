@@ -92,14 +92,14 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
 			, <&key_physical_attrs 100 100 1200  312       0     0     0>
 			, <&key_physical_attrs 100 100 1300  338       0     0     0>
 			, <&key_physical_attrs 100 100 1400  338       0     0     0>
-			, <&key_physical_attrs 100 100  348  414    900    398   790>  // 48 (POINTER)
-            , <&key_physical_attrs 100 100  418  414   1500    398   790>  // 49 (gui_ctrlb)
-            , <&key_physical_attrs 100 100  518  420   1500    398   790>  // 50 (LALT)
-            , <&key_physical_attrs 100 100  382  514   1500    398   790>  // 51 (LCTRL)
-            , <&key_physical_attrs 100 100  482  520   1500    398   790>  // 52 (LOWER)
-            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>  // 53 (RAISE)
-            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>  // 54 (SYMBOLS)
-            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>  // 55 (RET)
+			, <&key_physical_attrs 100 100  348  414    900    398   790>
+            , <&key_physical_attrs 100 100  418  414   1500    398   790>
+            , <&key_physical_attrs 100 100  518  420   1500    398   790>
+            , <&key_physical_attrs 100 100  382  514   1500    398   790>
+            , <&key_physical_attrs 100 100  482  520   1500    398   790>
+            , <&key_physical_attrs 100 100 1052  420 (-3000)  1102   790>
+            , <&key_physical_attrs 100 100 1067  414 (-1500)  1102   790>
+            , <&key_physical_attrs 100 100 1052  520 (-3000)  1102   790>
             ;
     };
 			;
