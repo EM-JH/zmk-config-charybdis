@@ -1,5 +1,19 @@
 #include "charybdis.dtsi"
 
+/ {
+    vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+        label = "BATTERY";
+        io-channels = <&adc 2>;       // nice!nano 전압 측정 채널
+        output-ohms = <2000000>;     // 2M 옴
+        full-ohms = <3000000>;       // 3M 옴
+    };
+
+    chosen {
+        zmk,battery = &vbatt;        // 시스템 배터리로 등록
+    };
+};
+
 &kscan0 {
     col-gpios
         /* 19, 20... 순서를 8, 7... 순서로 싹 뒤집었다 */
