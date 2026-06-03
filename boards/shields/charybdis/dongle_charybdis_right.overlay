@@ -16,16 +16,4 @@
         device = <&trackball>;
         reg = <0 1>;  // address 0, size 1
     };
-/* --- 여기서부터 내가 준 코드가 붙는 기라 --- */
-    vbatt: vbatt {
-        compatible = "zmk,battery-voltage-divider";
-        label = "BATTERY";
-        io-channels = <&adc 2>;      
-        output-ohms = <2000000>;    
-        full-ohms = <3000000>;      
-    };
-
-    chosen {
-        zmk,battery = &vbatt;       
-    };
 };
